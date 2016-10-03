@@ -1,0 +1,21 @@
+
+body {background-color: lightblue;
+}
+head {
+  border-style: inset;
+  border-width: 10px;
+  border-color: lightgreen;
+}
+aside { color: white;
+text-align: right;}
+ul {
+  font-family: comic sans ms;
+  font-size:40px;
+  list-style: none;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+
+}
