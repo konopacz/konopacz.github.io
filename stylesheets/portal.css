@@ -2,10 +2,10 @@
 body {
   background-color: lightblue;
 }
-head {
+header {
   border-style: inset;
   border-width: 10px;
-  border-color: lightgreen;
+  border-color: orange;
 }
 aside { color: white;
   text-align: right;
