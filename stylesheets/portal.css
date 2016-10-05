@@ -1,11 +1,11 @@
 
 body {
-  background-color: lightblue;
+  background-color: #8ce179;
 }
 header {
   border-style: inset;
   border-width: 10px;
-  border-color: orange;
+  border-color: #5aa648;
 }
 aside { color: white;
   text-align: right;
@@ -19,4 +19,36 @@ ul {
 a {
   color: orange;
   text-decoration: none;
+}
+nav ul {
+  list-style-type: none;
+  margin-bottom: 60px;
+
+}
+
+nav ul li a {
+  display: block;
+  background-color: #292b28;
+  color:#e7dacc;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  line-height: 60px;
+  height: 60px;
+  text-transform: lowercase;
+  text-decoration: none;
+
+  padding-left: 25px;
+  border-bottom: 5px solid #e7dacc;
+}
+
+nav ul li a:hover {
+  background: #2b5b20;
+}
+
+nav {
+  float: left;
+  width: 320px;
+
 }
