@@ -44,7 +44,7 @@ nav ul li a:hover {
 }
 
 nav {
-  align-content: : left;
+  float: left;
   width: 320px;
 }
 
