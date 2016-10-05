@@ -20,6 +20,7 @@ section {
 nav ul {
   list-style-type: none;
   margin-bottom: 60px;
+  margin-left: none;
 }
 
 nav ul li a {
