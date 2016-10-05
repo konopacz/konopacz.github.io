@@ -43,7 +43,10 @@ nav ul li a:hover {
   background: #d06038;
 }
 
-
+nav {
+  align-content: : left;
+  width: 320px;
+}
 
 /*********** END NAVIGATION STYLES **********/
 
