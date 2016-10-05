@@ -55,6 +55,12 @@ nav {
 
 
 footer {
+  font-family: comic sans ms;
   clear:both;
   background: #313f30;
+  color: #69b863;
+}
+
+footer a{
+  color: white;
 }
