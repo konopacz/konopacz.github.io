@@ -7,6 +7,9 @@ article {
 header{
   background-color: lightgreen;
   height: 100px;
+  border-style: groove;
+  border-color: darkgreen;
+  border-width: thick;
 
 }
 p{
@@ -63,7 +66,7 @@ line-height: 60px;
 height: 60px;
 text-transform: uppercase;
 text-decoration: none;
-
+border-left:3px solid darkgreen;
 padding-left: 5px;
 border-bottom: 3px solid darkgreen;
 }
