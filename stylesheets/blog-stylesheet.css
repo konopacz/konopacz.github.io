@@ -12,21 +12,23 @@ p{
 section {
   width: 960px;
   margin: auto;
-  background-color: green;
+  background-color: #A20021;
 }
 
-header{
-  background-color: lightgreen;
-  height: 100px;
-  border-style: groove;
-  border-color: darkgreen;
-  border-width: thick;
 
 }
 /*  SUBSTANCE SYLISHNESS END  */
 
 
 /* BEGINNING OF HEADING STYLES  */
+header{
+  background-color: #F79D5C;
+  height: 100px;
+  border-style: groove;
+  border-color: none;
+  border-width: thick;
+
+
 h1 {
   text-align: center;
   font-family: helvetica;
@@ -50,8 +52,9 @@ text-align: center;
 /* FOOTER STYLING  */
 footer{
   clear: both;
-  background-color: lightgreen;
+  background-color: black;
   padding: 25px;
+  color: white;
 }
 /* FOOTER STYLING  */
 
