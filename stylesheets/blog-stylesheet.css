@@ -16,7 +16,7 @@ section {
 }
 
 
-}
+
 /*  SUBSTANCE SYLISHNESS END  */
 
 
@@ -27,8 +27,7 @@ header{
   border-style: groove;
   border-color: none;
   border-width: thick;
-
-
+}
 h1 {
   text-align: center;
   font-family: helvetica;
