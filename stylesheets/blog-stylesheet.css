@@ -5,7 +5,7 @@ article {
   width: 590px;
   padding: 25px;
 }
-p{
+p {
   font-family: verdana;
 }
 
@@ -37,11 +37,11 @@ h1 {
 }
 
 h2 {
-text-align: center;
+ text-align: center;
  font-family: Papyrus;
-  font-size: 36;
-  margin: 0px;
-  padding: 0px;
+ font-size: 36;
+ margin: 0px;
+ padding: 0px;
 }
 
 /* HEADING STYLES END  */
@@ -82,9 +82,9 @@ line-height: 60px;
 height: 60px;
 text-transform: uppercase;
 text-decoration: none;
-border-left:3px solid darkgreen;
+border-left:3px #A20021;
 padding-left: 5px;
-border-bottom: 3px solid darkgreen;
+border-bottom: 3px #A20021;
 }
 
 li a {
@@ -102,7 +102,7 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
-    color: darkgreen;
+    color: #A20021;
 }
 
 /* END NAVIGATING STYLING */
