@@ -66,7 +66,10 @@ nav {
   float: left;
   width: 320 px;
 }
-
+.button {
+  display: block;
+  position:relative;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -79,7 +82,7 @@ nav ul li a {
 font-size: 20px;
 font-family: Trebuchet MS;
 
-line-height: 60px;
+
 height: 60px;
 text-transform: uppercase;
 text-decoration: none;
@@ -95,6 +98,23 @@ li a {
  text-decoration: none;
 
 }
+
+li {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 0px;
+}
+
+#Post1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b5/Xkcd_philosophy.png")
+}
+
 
 li a:hover {
     background-color: #555;
