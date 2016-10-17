@@ -74,16 +74,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 320px;
     background-color: #f1f1f1;
 }
 
 nav ul li a {
 font-size: 20px;
 font-family: Trebuchet MS;
-
-
-height: 60px;
 text-transform: uppercase;
 text-decoration: none;
 border-left:3px #A20021;
@@ -100,7 +97,7 @@ li a {
 }
 
 li {
-  width: 100px;
+  width: 320px;
   height: 100px;
   text-align: center;
   line-height: 100px;
