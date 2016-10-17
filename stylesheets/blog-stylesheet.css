@@ -55,6 +55,7 @@ footer{
   background-color: black;
   padding: 25px;
   color: white;
+  width: 700px;
 }
 /* FOOTER STYLING  */
 
@@ -64,15 +65,15 @@ footer{
 
 nav {
   float: left;
-  width: 320 px;
+  width: 220 px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 320px;
-    background-color: #f1f1f1;
+    width: 220px;
+
 }
 
 nav ul li a {
@@ -80,47 +81,45 @@ font-size: 20px;
 font-family: Trebuchet MS;
 text-transform: uppercase;
 text-decoration: none;
-border-left:3px #A20021;
-padding-left: 5px;
+border-left: 0px #A20021;
+padding-left: 0px;
 border-bottom: 3px #A20021;
 }
 
 li a {
     display: block;
     color: #000;
- padding: 8px 16px;
+ padding: 0px 0px;
  text-decoration: none;
-
+ background-color: rgba(255, 0, 0, 0.5);;
+ color: white;
 }
 
 li {
-  width: 320px;
-  height: 200px;
+  width: 220px;
+  height: 100px;
   text-align: center;
   line-height: 100px;
 }
 
-p {
+ nav p {
   background-color: rgba(255, 0, 0, 0.5);
   margin: 0px;
 }
 
 #Post1 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b5/Xkcd_philosophy.png")
+  background-image: url("http://roberthood.net/blog/wp-content/uploads/2007/11/xkcd-strip-zomb.jpg")
 }
 
 #Post2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bb/Foxtrot_-_Assembled_with_Care_-_Cover.jpg");
+  background-image: url("http://www.tgfa.org/strips/images/FoxTrot_010520.gif");
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: rgba(255, 80, 80, 0.5);;
     color: white;
 }
 
-.active {
-    background-color: #4CAF50;
-    color: #A20021;
-}
+
 
 /* END NAVIGATING STYLING */
