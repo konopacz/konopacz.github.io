@@ -66,10 +66,7 @@ nav {
   float: left;
   width: 320 px;
 }
-.button {
-  display: block;
-  position:relative;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -98,7 +95,7 @@ li a {
 
 li {
   width: 320px;
-  height: 100px;
+  height: 200px;
   text-align: center;
   line-height: 100px;
 }
@@ -112,6 +109,9 @@ p {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b5/Xkcd_philosophy.png")
 }
 
+#Post2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/b/bb/Foxtrot_-_Assembled_with_Care_-_Cover.jpg");
+}
 
 li a:hover {
     background-color: #555;
