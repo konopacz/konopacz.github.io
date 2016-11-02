@@ -1,17 +1,17 @@
 /* Reset */
-html body div span object iframe
-h1 h2 h3 h4 h5 h6 p blockquote pre
-a abbr acronym address big cite code
-del dfn em img ins kbd q s samp
-small strike strong sub sup tt var
-b u i
-dl dt dd ol ul li
-fieldset form label legend
-table caption tbody tfoot thead tr th td
-article aside canvas details embed
-figure figcaption footer header hgroup
-menu nav output ruby section summary
-time mark audio video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,8 +20,8 @@ time mark audio video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article aside details figcaption figure
-footer header hgroup menu nav section {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -30,11 +30,11 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote q {
+blockquote, q {
 	quotes: none;
 }
-blockquote:before blockquote:after
-q:before q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -42,29 +42,32 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Reset */
 
-/* NAVIGATION STYLING  */
-/* structural */
-main {
-  display: table;
-  width: 1024;
-}
-section {
-background-color: green;
-display: table-cell;
-width:1024px;
-height: 300px;
+/*****Classes****/
+
+.textwrap {
+	float: right;
+	margin: 10px;
 }
 
-sidebar {
-  display: table-cell;
-  width: 200px;
-  background-color: purple;
-  text-decoration: none;
-  background-image: url(images/sidebar.png);
+
+
+
+
+/* structural */
+main {
+	display: table;
+  width: 1024px;
 }
+section {
+background-color: white;
+display: table-cell;
+width:799px;
+padding: 40px;
+}
+
+
 
 body {
   background-color: lightblue;
@@ -72,15 +75,46 @@ body {
   padding: 0px;
 }
 
+#container {
+	width: 1024px;
+	margin: auto;
+	background: #ffffff;
+}
 
 header {
   margin: 0px;
-  padding: 0px;
-  width: 1024px;
-  height: 200px;
+  padding: 40px;
+  height: 140px;
   background-color: pink;
   margin-right: 0px;
+	background-image: url(images/header-ball.png);
+
+
 }
+
+
+/***** Article Styles ****/
+article p {
+	line-height: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: lato;
+	font-size: 42px;
+	font-weight: bold;
+	padding-bottom: 40px;
+
+}
+
+img {
+	padding-top: 20px;
+	width: 300px;
+}
+
+/*** NAV STYLES ***/
 ul li a {
 font-size: 20px;
 font-family: Trebuchet MS;
@@ -93,14 +127,26 @@ a {
   height: 30px;
 }
 
+aside {
+	display: table-cell;
+  width: 245px;
+  text-decoration: none;
+  background-image: url(images/sidebar.png);
+	background-color: white;
+	background-blend-mode: screen multiply;
+}
 
 /* END NAVIGATING STYLING */
 
+
+/*** FOootterrrrrr ***/
 footer{
   clear: both;
-  background-color: black;
+  background-color: #969696;
   padding: 25px;
   color: white;
-  width: 1024px;
-  margin: 0px;
+	text-align: right;
+ font-family: helvetica;
+ font-weight: lighter;
+ font-size: 12px;
 }
