@@ -92,6 +92,10 @@ header {
 
 }
 
+#cited {
+	text-align:center;
+}
+
 
 /***** Article Styles ****/
 article p {
