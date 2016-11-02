@@ -114,11 +114,16 @@ img {
 	padding-top: 20px;
 	width: 300px;
 }
-
+ol {
+	line-height: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 18px;
+}
 /*** NAV STYLES ***/
 ul li a {
 font-size: 20px;
-font-family: lato;
+font-family: helvetica;
 font-weight: lighter;
 color: white;
 text-decoration: none;
@@ -126,16 +131,16 @@ text-decoration: none;
 }
 
 
-li {
+aside li {
 	margin-top: 30px;
 	margin-left: 25px;
-	background-color: blue;
+	background-color: rgba(0, 0, 0, 0.7);
 	list-style: none;
 	width: 150px;
 	height:60px;
 	text-align: center;
 	line-height: 60px;
-padding: 10px;
+  padding: 10px;
 }
 
 li a {
