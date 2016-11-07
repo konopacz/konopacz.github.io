@@ -44,6 +44,10 @@ table {
 }
 /* Reset */
 
+
+
+
+
 /*****Classes****/
 
 .textwrap {
@@ -70,7 +74,7 @@ padding: 40px;
 
 
 body {
-  background-color: lightblue;
+  background-color: darkgrey;
   margin: 0px;
   padding: 0px;
 }
@@ -85,7 +89,6 @@ header {
   margin: 0px;
   padding: 40px;
   height: 140px;
-  background-color: pink;
   margin-right: 0px;
 	background-image: url(images/header-ball.png);
 
@@ -95,6 +98,12 @@ header {
 #cited {
 	text-align:center;
 }
+
+
+
+
+
+
 
 
 /***** Article Styles ****/
@@ -166,6 +175,14 @@ li a:hover {
 }
 
 /* END NAVIGATING STYLING */
+
+
+
+
+
+
+
+
 
 
 /*** FOootterrrrrr ***/
