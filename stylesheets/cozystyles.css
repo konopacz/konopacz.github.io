@@ -97,10 +97,10 @@ width: 140px;
   width: 100%;
   display: block;
 }
-h1 {
-  font-size: 4em;
-  height: 50px;
-  line-height: 50px;
+     h1 {
+       font-size: 4em;
+       height: 50px;
+       line-height: 50px;
       }
       body {
         background-image: url("images/cc-mobile-bg 2.jpg");
@@ -117,7 +117,7 @@ h1 {
 
       header {
         background-image: url("images/menu.png");
-        background-size: 30px;
+        background-size: 50px;
         background-repeat: no-repeat;
       }
 }
