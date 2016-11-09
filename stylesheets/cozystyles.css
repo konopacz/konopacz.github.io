@@ -91,6 +91,7 @@ li {
   margin-left: 40px;
 }
 
+
 header img {
 width: 140px;
 }
@@ -100,6 +101,7 @@ width: 140px;
   width: 100%;
   display: block;
 }
+
 h1 {
   font-size: 4em;
   height: 50px;
@@ -109,18 +111,22 @@ h1 {
         background-image: url("images/cc-mobile-bg 2.jpg");
         background-size: 100%;
       }
-      header img {
-        margin-left: 30%;
 
+      header img {
+        margin-left: 25%;
+        width: 160px;
       }
+
       nav {
       display: none;
       }
+
+      header {
+        background-image: url("images/menu.png");
+        background-size: 30px;
+        background-repeat: no-repeat;
+      }
 }
-/* end structural styles */
-
-
-/* START HEADER STYLES */
 
 h1 {
 font-family: 'montserrat';
@@ -129,27 +135,9 @@ font-size: 4em;
 }
 
 
-
-
 img {
  width: 100%;
 }
 
-/* end header styles */
 
-
-/* START FOOTER STYLES */
-
-
-
-a, a:visited {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: #777;
-  text-decoration: none;
-}
-
-/* end footer styles */
+/* end structural styles */
