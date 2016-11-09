@@ -107,9 +107,8 @@ width: 140px;
         background-size: 100%;
       }
       header img {
-        margin-left: 25%;
-        width: 160px;
 
+        width: 160px;
       }
       nav {
       display: none;
@@ -119,6 +118,15 @@ width: 140px;
         background-image: url("images/menu.png");
         background-size: 50px;
         background-repeat: no-repeat;
+      }
+
+      .wrapper {
+        width: 160px;
+        margin: auto;
+      }
+
+      .page {
+        width: 80%;
       }
 }
 
